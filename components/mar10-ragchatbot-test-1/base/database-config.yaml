@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar10-ragchatbot-test-1-database-config
+data:
+  VECTORDB_HOST: "mar10-ragchatbot-test-1-database"
+  VECTORDB_PORT: "8000"
